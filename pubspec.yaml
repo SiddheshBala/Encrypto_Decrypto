@@ -41,6 +41,12 @@ dependencies:
   firebase_storage: ^10.0.6
   path: ^1.8.0
   path_provider: ^2.0.6
+  page_transition: "^2.0.4"
+  open_file: ^3.2.0
+  aes_crypt_null_safe: ^2.0.2
+  firebase_auth: ^3.3.4
+  google_sign_in: ^5.2.1
+
 
 dev_dependencies:
   flutter_test:
@@ -52,7 +58,6 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
-
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

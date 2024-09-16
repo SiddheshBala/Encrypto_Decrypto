@@ -13,8 +13,8 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
 
   void strttime() async{
-    await Future.delayed(Duration(seconds: 5));
-    Navigator.pushReplacementNamed(context, 'home');
+    await Future.delayed(Duration(seconds: 3));
+    Navigator.pushReplacementNamed(context, 'sign-in');
   }
 
   @override
@@ -30,7 +30,7 @@ class _LoadingState extends State<Loading> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SpinKitCircle(
-            color: Colors.lightGreenAccent[100],
+            color: Colors.grey[100],
             size: 100.0,
           ),
           Text(
@@ -43,7 +43,7 @@ class _LoadingState extends State<Loading> {
           ),
         ],
       ),
-      backgroundColor: Colors.grey[700],
+      backgroundColor: Colors.grey[900],
     );
   }
 }
